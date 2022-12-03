@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap');
+body{
+
+    padding-inline-start: 0%;
+    padding-inline-end: 0%;
+    margin: 0%;
+}
+:root{
+
+    --dark-color:white;
+    --light-color:#155e75;
+}
+.nav{
+background-color: var(--light-color);
+padding-bottom: 0.5rem;
+padding-top: 0rem;
+border-bottom-right-radius: 1rem;
+
+}
+.nav-brand{
+
+    font-family: 'Nerko One', cursive;
+    font-size: 1.5rem;
+    font-weight: bolder;
+    padding: 1rem 1rem;
+    color: var(--dark-color);
+}
+.nav-list{
+
+    list-style: none;
+    margin-left: 50%;
+    
+}
+
+.nav-list-item{
+    
+    display: inline;
+    padding: 1rem;
+    font-size: large;
+    
+    
+    
+}
+
+a{
+
+    text-decoration: none;
+    color: white;
+}
+
+.link-active{
+
+    font-weight: bolder;
+}
+.question-container{
+    
+    padding: 0.5rem 0.5rem;
+    text-align: center;
+    
+
+}
+.questions-list{
+
+    font-size: x-large
+    
+}
+.label{
+
+    font-size: larger;
+}
+.submit-form-btn{
+
+    display: block;
+    padding: 0.5rem 0.5rem;
+    background-color: var(--light-color);
+    border-color:var(--light-color) ;
+    border-radius: 0.5rem;
+    font-size: 1rem;
+    color: white;
+    margin: 1rem auto ;
+
+}
+
+#output{
+    display: block;
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: bold;
+   
+    padding: 1rem 1rem;
+    margin: auto;
+}
+.header{
+
+    text-align: center;
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+.description{
+
+    text-align: center;
+    font-size: larger;
+}
+.input{
+
+    max-width: 258px;
+    margin: auto;
+    display: block;
+    padding: 0.5rem;
+}
+.label-one{
+
+    text-align: center;
+    display: block;
+    font-size: x-large;
+    font-weight: bold;
+    padding: 0.5rem 1rem;
+}
+#istriangle-btn{
+    
+    display: block;
+    padding: 0.5rem 0.5rem;
+    background-color: var(--light-color);
+    border-color:var(--light-color) ;
+    border-radius: 0.5rem;
+    font-size: 1rem;
+    color: white;
+    margin: 1rem auto ;
+
+}
