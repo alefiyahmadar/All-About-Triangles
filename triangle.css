@@ -33,11 +33,9 @@ border-bottom-right-radius: 1rem;
 }
 
 .nav-list-item{
-    
     display: inline;
-    padding: 0.5rem;
-    font-size: large;
-    
+    text-align: right;
+    margin: 0.6rem 1rem;
     
     
 }
