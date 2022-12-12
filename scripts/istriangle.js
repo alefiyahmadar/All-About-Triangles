@@ -16,7 +16,7 @@ output.innerText=msg
 function isTriangle(){
 
     var sumAngle = calculateSum(Number(userInput[0].value),Number(userInput[1].value),Number(userInput[2].value));
-    
+    if(Number(userInput[0].value),Number(userInput[1].value),Number(userInput[2].value) > 0){
     if (sumAngle === 180){
 
         showMessage("Yayy! It is a triangle")
@@ -24,8 +24,11 @@ function isTriangle(){
     } else {
         showMessage("It is not a triangle!")
     }
-}
+}else{
 
+    showMessage("Sides should be greater than 0")
+}
+}
  
 
 

@@ -10,13 +10,25 @@ function calculate(base,height){
 
 function calculateArea(){
 
+    if(Number(userInput[0].value),Number(userInput[1].value) > 0){
+
     var area=calculate(Number(userInput[0].value),Number(userInput[1].value))
 
-    output.innerText=("The area of the triangle is " + area)
+        if(area > 0){
 
+    output.innerText=("The area of the triangle is " + area)
+        }
+
+}else{
+
+    showMessage("The area of a triangle cannot be negative")
 }
 
+function showMessage(msg){
 
+    output.innerText=msg
+}
+}
 
 
 checkBtn.addEventListener("click",calculateArea)

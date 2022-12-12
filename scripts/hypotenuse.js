@@ -11,9 +11,20 @@ function squareOfSides(side1,side2){
 }
 
 function calculateHypo(){
+    if(Number(triangleSide[0].value),Number(triangleSide[1].value) > 0){
 
     var hypoTenuse=squareOfSides(Number(triangleSide[0].value),Number(triangleSide[1].value))
-    output.innerText=("The hypotenuse is " + hypoTenuse)
+    showMessage("The hypotenuse is " + hypoTenuse)
+    } else{
+
+        showMessage("The hypotenuse of a triangle cannot be negative")
+    }
 }
+
+function showMessage(msg){
+
+    output.innerText=msg
+}
+
 
 checkBtn.addEventListener("click",calculateHypo)
