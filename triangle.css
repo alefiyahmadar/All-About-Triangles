@@ -129,3 +129,38 @@ a{
     margin: 1rem auto ;
 
 }
+
+.footer{
+
+    background-color: var(--light-color);
+    text-align: center;
+    padding: 2rem 1rem;
+    margin-top: 2rem;
+    border-top-right-radius: 0.5rem;
+    color: white;
+    
+  }
+  .footerh{
+  
+    font-size: 1.5rem;
+    color: var(--off-white);
+    font-weight: bold;
+    margin: auto;
+    margin-bottom: 1rem;
+  }
+  
+  .padded{
+  
+    display: inline;
+    text-align: center;
+    padding: 1rem 1rem;
+    margin-right: 2rem;
+    list-style: none;
+    font-size: large;
+    
+  }
+  .linked{
+  
+    color: var(--off-white);
+    text-decoration: none;
+  }
